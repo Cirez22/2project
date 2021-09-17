@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 
 
@@ -11,9 +12,9 @@ const NavBarInterface = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
 
           <Nav>
-            <Nav.Link href="login">
+            <Link to="/login">
               <button style={{marginLeft: "1100px"}} className=" btn btn-outline-dark">Log Out</button>
-            </Nav.Link>
+            </Link>
             
           </Nav>
         </Navbar.Collapse>

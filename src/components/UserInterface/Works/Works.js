@@ -59,29 +59,7 @@ function Works() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight: "10px" }}>
-                    <div className="card-body">
-                        <h5 className="card-title">Company Name</h5>
-                        <p className="card-text">Title About the Sale</p>
-                        <p className="card-text">Information</p>
-                        <a href="#viw" className="btn btn-primary">View</a>
-                    </div>
-                </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight: "10px" }}>
-                    <div className="card-body">
-                        <h5 className="card-title">Company Name</h5>
-                        <p className="card-text">Title About the Sale</p>
-                        <p className="card-text">Information</p>
-                        <a href="#viw" className="btn btn-primary">View</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="row">
-
-
-
+                
                 <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title" style={{ marginTop: "30px" }}>New Sale</h5>
@@ -96,6 +74,8 @@ function Works() {
                 </div>
 
             </div>
+
+           
 
 
 
