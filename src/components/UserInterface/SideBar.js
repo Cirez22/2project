@@ -9,11 +9,11 @@ import '../../styles/SideBar.css';
 function Sidebar() {
     return (
 
-        <div id="sticky-sidebar" className='sidebar' style={{marginLeft:"0px"}}>
+        <div id="sticky-sidebar" className='sidebar' >
             <ul className='content '>
 
                 <li id='links'>
-                    <Link to="/dashboard">
+                    <Link to="/userinterface">
                         <button id='text' type="button" className="btn btn-outline-dark newspaper">
                             <House /> Dashboard
                         </button>
@@ -22,7 +22,7 @@ function Sidebar() {
 
 
                 <li id='links'>
-                    <Link to="/works">
+                    <Link to="/worksview">
                         <button type="button" className="btn btn-outline-dark newspaper">
                             <Newspaper /> Sales
                         </button>
@@ -30,28 +30,28 @@ function Sidebar() {
                 </li>
 
                 <li id='links'>
-                    <Link to="/myworks">
+                    <Link to="/myworksview">
                         <button type="button" className="btn btn-outline-dark newspaper">
                             <Briefcase /> My Sales
                         </button>
                     </Link>
                 </li>
                 <li id='links'>
-                    <Link to="/messages">
+                    <Link to="/messagesview">
                         <button type="button" className="btn btn-outline-dark newspaper">
                             <Chat /> Message
                         </button>
                     </Link>
                 </li>
                 <li id='links'>
-                    <Link to="/account">
+                    <Link to="/accountview">
                         <button type="button" className="btn btn-outline-dark newspaper">
                             <Person /> Account
                         </button>
                     </Link>
                 </li>
                 <li id='links'>
-                <Link to="/settings">
+                <Link to="/settingview">
                         <button type="button" className="btn btn-outline-dark newspaper">
                             <Gear /> Settings
                         </button>

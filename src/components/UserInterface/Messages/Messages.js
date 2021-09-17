@@ -5,7 +5,7 @@ import React from 'react';
 
 function Messages() {
     return (
-        <div id='messages' className="container" style={{ height: 800, minWidth: 1000, margin: '100px auto 0 40px' }}>
+        <div id='messages' className="container" style={{ height: 800, minWidth: 1000, margin: '100px auto 0 300px' }}>
             <div className="row">
                 <div id='titledash' className="col-5 " style={{ width: '200px', margin: '10px' }}>Messages</div>
             </div>

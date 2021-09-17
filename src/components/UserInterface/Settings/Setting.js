@@ -6,7 +6,7 @@ import "./Settings.css"
 function Settings() {
     return (
 
-        <div className="container" style={{ height: 200, minWidth: 1000, margin: '100px 0 0 0' }}>
+        <div className="container" style={{ height: 200, minWidth: 1000, margin: '100px 0 0 300px' }}>
 
             <div id='container' className="container"  >
                 <div id='settingtext' className="row justify-content-center">

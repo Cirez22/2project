@@ -5,7 +5,7 @@ import React from 'react';
 
 function Account() {
     return (
-        <div id='account' class="container">
+        <div id='account' class="container" style={{ height: 200, minWidth: 1000, margin: '100px 0 0 300px' }}>
             <div className="main-body">
 
                 <div className="row">

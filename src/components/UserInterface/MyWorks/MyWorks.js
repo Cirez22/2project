@@ -6,7 +6,7 @@ import React from 'react';
 
 function MyWorks() {
     return (
-        <div id='works' className="container" style={{ height: 800, minWidth: 1000, margin: '100px auto 0 40px' }}>
+        <div id='works' className="container" style={{ height: 800, minWidth: 1000, margin: '100px auto 0 300px' }}>
             <div className="row">
                 <div id='titledash' className="col-5 " style={{ width: '200px', margin: '10px' }}>My Sales</div>
             </div>

@@ -1,16 +1,15 @@
 import React from 'react';
-import Dashboard from '../components/UserInterface/Dashboard';
 
-
-import NavBarInterface from '../components/UserInterface/NavBarInterface';
-import SideBar from '../components/UserInterface/SideBar.js';
-
-
+import Setting from './Setting';
+import NavBarInterface from '../../UserInterface/NavBarInterface';
+import SideBar from '../../UserInterface/SideBar';
 
 
 
 
-function Dash() {
+
+
+function SettingView() {
     return (
         <div>
             <NavBarInterface />
@@ -21,7 +20,7 @@ function Dash() {
                         <SideBar />
                     </div>
                     {/* <div  className="col-10" style={{  backgroundColor:'#F7F9FA'}}> */}
-                        <Dashboard />
+                        <Setting/>
                     {/* </div> */}
                 </div>
             </div>
@@ -31,4 +30,4 @@ function Dash() {
 
 
 
-export default Dash;
+export default SettingView;

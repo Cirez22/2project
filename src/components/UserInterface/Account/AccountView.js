@@ -1,16 +1,15 @@
 import React from 'react';
-import Dashboard from '../components/UserInterface/Dashboard';
 
-
-import NavBarInterface from '../components/UserInterface/NavBarInterface';
-import SideBar from '../components/UserInterface/SideBar.js';
-
-
+import NavBarInterface from '../../UserInterface/NavBarInterface';
+import SideBar from '../../UserInterface/SideBar';
+import Account from './Account';
 
 
 
 
-function Dash() {
+
+
+function AccountView() {
     return (
         <div>
             <NavBarInterface />
@@ -21,7 +20,7 @@ function Dash() {
                         <SideBar />
                     </div>
                     {/* <div  className="col-10" style={{  backgroundColor:'#F7F9FA'}}> */}
-                        <Dashboard />
+                        <Account/>
                     {/* </div> */}
                 </div>
             </div>
@@ -31,4 +30,4 @@ function Dash() {
 
 
 
-export default Dash;
+export default AccountView;

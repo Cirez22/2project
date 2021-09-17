@@ -10,7 +10,7 @@ function Works() {
 
 
 
-        <div id='works' className="container" style={{ height: 800, minWidth: 1000, margin: '100px auto 0 40px' }}>
+        <div id='works' className="container" style={{ height: 800, minWidth: 1000, margin: '100px auto 0 300px' }}>
             <div className="row">
                 <div id='titledash' className="col-5 " style={{ width: '200px', margin: '10px' }}>Works</div>
             </div>
@@ -22,8 +22,14 @@ function Works() {
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
                         <p className="card-text">Information</p>
-                        <a href="#viw" className="btn btn-primary">View</a>
+                        <Link to="/postedwork">
+                            <button type="button" className="btn btn-primary newspaper" >
+                                View
+                            </button>
+                        </Link>
                     </div>
+
+
                 </div>
                 <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight: "10px" }}>
                     <div className="card-body">
@@ -73,7 +79,7 @@ function Works() {
             </div>
 
             <div className="row">
-                
+
 
 
                 <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight: "10px" }}>
