@@ -19,3 +19,8 @@ main {
 #card {
     border: 1px solid black;
 }
+
+.icon svg {
+    font-size: 2em;
+    margin-left: -50px;
+}

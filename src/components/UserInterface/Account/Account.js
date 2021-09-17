@@ -22,8 +22,6 @@ function Account() {
                                         <h4>John Doe</h4>
                                         <p className="text-secondary mb-1">Full Stack Developer</p>
                                         <p className="text-muted font-size-sm">Bay Area, San Francisco, CA</p>
-                                        <button className="btn btn-primary" style={{ marginRight: '10px' }}>Follow</button>
-                                        <button className="btn btn-outline-primary">Message</button>
                                     </div>
                                 </div>
                             </div>
