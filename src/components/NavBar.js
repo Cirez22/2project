@@ -25,9 +25,9 @@ const NavBar = () => {
             <Link to="/login">
               <button className="btn btn-outline-dark">Login</button>
             </Link>
-            <Nav.Link href="register">
+            <Link href="/register">
               <button className="btn btn-outline-dark">Sign In</button>
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

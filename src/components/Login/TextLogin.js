@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Nav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 
 
@@ -47,11 +47,11 @@ function TextLogin() {
                           </div>
                         </div>
 
-                        <Nav.Link href="userinterface">
+                        <Link to="/userinterface">
                           <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                             <button type="button" className="btn btn-primary btn-lg">Login</button>
                           </div>
-                        </Nav.Link>
+                        </Link>
                       </form>
 
                     </div>
