@@ -1,0 +1,21 @@
+main {
+    border: 1px solid black;
+    margin-top: 200px;
+   
+}
+
+#card{
+    border: 1px solid black;
+}
+
+#dash {
+    margin-top: 0px;
+}
+
+#titledash {
+    font-size: 30px;
+}
+
+#card {
+    border: 1px solid black;
+}
