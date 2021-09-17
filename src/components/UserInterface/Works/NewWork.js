@@ -1,16 +1,37 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBarInterface from '../NavBarInterface';
 import Sidebar from '../SideBar';
-import {Link} from 'react-router-dom'
-
-
-// import '../../styles/Dashboard.css';
+import { Link } from 'react-router-dom'
+import { getNewWorkFromApi } from '../../../services/NewWorkService';
+import axios from 'axios'
 
 
 function NewWork() {
+
+    const [newwork, setWork] = useState([]);
+
+    useEffect(() => {
+        getData();
+    }, [])
+
+    const getData = async () => {
+        try {
+            const response = await axios('http://localhost:5000/api/newworks/newwork');
+            setWork(response.data);
+        } catch (error) {
+            console.log("Server not working")
+        }
+    }
+
+
+
+
+
     return (
         <div>
             <NavBarInterface />
+
+
 
             <div className="container-fluid">
                 <div className="row">
@@ -21,6 +42,11 @@ function NewWork() {
                         <div className="row">
                             <div id='titledash' className="col-5 " style={{ width: '200px', margin: '10px' }}>New Work</div>
                         </div>
+
+
+                        {newwork.map(n => (
+                            <h2>: TESTING: {n.name}</h2>
+                        ))}
 
                         <form>
                             <div class="form-outline mb-1 w-50">
@@ -38,9 +64,9 @@ function NewWork() {
                             </div>
 
                             <Link to="/worksview">
-                            <button type="submit" class="btn btn-primary btn-block mb-4">
-                                Post
-                            </button>
+                                <button type="submit" class="btn btn-primary btn-block mb-4">
+                                    Post
+                                </button>
                             </Link>
                             <button type="submit" class="btn btn-danger btn-block mb-4" style={{ marginLeft: "20px" }}>
                                 Delete
