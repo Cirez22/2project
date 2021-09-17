@@ -1,4 +1,5 @@
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 
 
 import '../styles/Navbar.css';
@@ -21,9 +22,9 @@ const NavBar = () => {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="login">
+            <Link to="/login">
               <button className="btn btn-outline-dark">Login</button>
-            </Nav.Link>
+            </Link>
             <Nav.Link href="register">
               <button className="btn btn-outline-dark">Sign In</button>
             </Nav.Link>
