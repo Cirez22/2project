@@ -13,7 +13,7 @@ function MyWorks() {
 
            
             <div className="row">
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -21,7 +21,7 @@ function MyWorks() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -29,7 +29,7 @@ function MyWorks() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -41,7 +41,7 @@ function MyWorks() {
             </div>
 
             <div className="row">
-            <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+            <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -49,7 +49,7 @@ function MyWorks() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -57,7 +57,7 @@ function MyWorks() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -69,7 +69,7 @@ function MyWorks() {
             </div>
             
             <div className="row">
-            <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+            <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -77,7 +77,7 @@ function MyWorks() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>
@@ -85,7 +85,7 @@ function MyWorks() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "30%", marginRight:"10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "30%", marginRight:"10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
                         <p className="card-text">Title About the Sale</p>

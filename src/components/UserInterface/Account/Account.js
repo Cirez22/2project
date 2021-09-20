@@ -12,11 +12,11 @@ function Account() {
                     <div id='titledash' className="col-5 " style={{ width: '200px', margin: '10px' }}>Account</div>
                 </div>
 
-                <div className="row gutters-sm">
+                <div className="row gutters-sm ">
                     <div className="col-md-4 mb-3">
                         <div className="card">
-                            <div className="card-body">
-                                <div className="d-flex flex-column align-items-center text-center">
+                            <div className="card-body border-left-primary shadow h-100 py-2">
+                                <div className="d-flex flex-column align-items-center text-center ">
                                     <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" className="rounded-circle" width="150" />
                                     <div className="mt-3">
                                         <h4>John Doe</h4>
@@ -28,7 +28,7 @@ function Account() {
                         </div>
                         
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-8 ">
                         <div className="card mb-3">
                             <div className="card-body">
                                 <div className="row">
@@ -87,7 +87,7 @@ function Account() {
                     </div>
 
                     <div class="row gutters-sm">
-                        <div class="col-sm-6 mb-3">
+                        <div class="col-sm-6 mb-3 ">
                             <div class="card h-100">
                                 <div class="card-body">
                                     <h6 class="d-flex align-items-center mb-3"><i class="material-icons text-info mr-2">assignment</i>Project Status</h6>

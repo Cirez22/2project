@@ -99,7 +99,7 @@ function Dashboard() {
                   
             </div>
 
-            <div className="col-xl-8">
+            <div className="col-xl-8 border-left-primary shadow ">
           <div className="card">
             <div className="card-header border-0">
               <div className="row align-items-center">

@@ -14,14 +14,13 @@ function Dash() {
     return (
         <div>
             <NavBarInterface />
-
             <div className="container-fluid">
                 <div className="row">
                     <div>
                         <SideBar />
                     </div>
                     {/* <div  className="col-10" style={{  backgroundColor:'#F7F9FA'}}> */}
-                        <Dashboard />
+                    <Dashboard />
                     {/* </div> */}
                 </div>
             </div>

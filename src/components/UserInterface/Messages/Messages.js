@@ -12,7 +12,7 @@ function Messages() {
 
 
             <div className="row">
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "45%", marginRight: "10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "45%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
 
@@ -25,7 +25,7 @@ function Messages() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "45%", marginRight: "10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "45%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
 
@@ -42,7 +42,7 @@ function Messages() {
             </div>
 
             <div className="row">
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "45%", marginRight: "10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "45%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
 
@@ -55,7 +55,7 @@ function Messages() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "45%", marginRight: "10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "45%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
 
@@ -71,7 +71,7 @@ function Messages() {
             </div>
 
             <div className="row">
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "45%", marginRight: "10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "45%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
 
@@ -84,7 +84,7 @@ function Messages() {
                         <a href="#viw" className="btn btn-primary">View</a>
                     </div>
                 </div>
-                <div className="card text-dark bg-light text-center mb-3" style={{ width: "45%", marginRight: "10px" }}>
+                <div className="card text-dark bg-light text-center mb-3 border-left-primary shadow h-100 py-2" style={{ width: "45%", marginRight: "10px" }}>
                     <div className="card-body">
                         <h5 className="card-title">Company Name</h5>
 
