@@ -15,6 +15,7 @@ import PostedWork from './components/UserInterface/Works/PostedWork'
 import WorksView from "./components/UserInterface/Works/WorksView";
 import MyWorksView from "./components/UserInterface/MyWorks/MyWorksView";
 import ViewMessage from "./components/UserInterface/Messages/ViewMessage";
+import ViewMyWork from "./components/UserInterface/MyWorks/ViewMyWork";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
                   <Route exact path="/accountview" component={AccountView} />
                   <Route exact path="/messagesview" component={MessagesView} />
                   <Route exact path="/viewmessage" component={ViewMessage} />
+                  <Route exact path="/viewmyworks" component={ViewMyWork} />
 
 
 
