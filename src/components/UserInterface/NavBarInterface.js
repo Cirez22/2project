@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav } from 'react-bootstrap'
+import { Image,Navbar, Container, Nav } from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 
 
@@ -7,7 +7,9 @@ const NavBarInterface = () => {
   return (
     <Navbar fixed='top' collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Navbar.Brand>Logo</Navbar.Brand>
+        <Navbar.Brand>
+          LOGO
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
